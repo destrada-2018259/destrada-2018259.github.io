@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Raleway'
+    
+}
+
+h1{
+    font-weight: bold;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Raleway', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header{
+    background: rgb(28, 31, 51);
+    color: white;
+    height: 95px;
+    font-size: 35px;
+    position: sticky;
+    top: 0;
+    width: 100%;   
+}
+
+header h1{
+    flex-direction: row;
+    line-height: 95px;
+}
+
+.menu{
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+.logo{
+    padding: 0;
+    margin-top: 35px;
+}
+a{
+    color: white;
+}
+
+ul li:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.seleccionado{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#hero{
+    padding: 20px 150px;
+    color: #e2fdff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height:105vh;
+    background-color: #7067cf;
+}
+
+#hero h1{
+    font-size: 90px;
+}
+#hero p{
+    font-size: 40px;
+}
+
+#cards{
+    padding: 20px 150px;
+    color: #7067cf;
+    display: flex;
+    justify-content: inherit;
+    text-align: center;
+    flex-direction: column;
+    height: 95vh;
+    background-color: #e2fdff;  
+}
+
+#cards h1{
+    font-size: 60px;
+    text-decoration-line: underline;
+}
+#cards p{
+    font-size: 30px;
+}
+
+.tarjetas{
+    background-color: #7067cf   ;
+    color: white;
+    box-shadow: 10px 10px 8px #888888;
+    height: 370px;
+
+}
+
+.img-card{
+    box-shadow: 10px 10px 8px #888888;
+    padding: 5px;
+    background-color: #7067cf;
+    border-image: round;
+}
+.fila{
+    padding-left: 130px;
+}
+
+.titulo-card{
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+}
+.texto-card{
+    text-align: justify;
+    font-size: 4em;
+}
+
+.btn-card{
+    background-color: #e2fdff;
+    padding: 15px;
+    font-weight: bold;
+    color: #7067cf;
+    box-shadow: 10px 10px 8px #383468;;
+    border-color: black;
+}
+.btn-card:hover{
+    background-color:rgb(28, 31, 51) ;
+    color: white;
+    
+}
+.pie-de-pagina{
+    background: rgb(28, 31, 51);
+    color: white;
+    height: 60px;
+    font-size: 20px;
+    top: 0;
+    width: 100%;   
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    flex-direction: column;
+}
+.link-yt{
+    color: #7067cf;
+    font-weight: bold;
+}
+.link-yt:hover{
+    color: rgb(28, 31, 51);
+    cursor: hand;
+}
+
+#videos-juegos{
+    padding: 20px 150px;
+    color: #e2fdff;
+
+    display: flex;
+    justify-content: inherit;
+    text-align: center;
+    flex-direction: column;
+    height:95vh;
+    background-color: #7067cf;
+}
+
+#videos-juegos h1{
+    font-size: 60px;
+    text-decoration-line: underline;
+}
+#videos-juegos p{
+    font-size: 30px;
+}
+.tabla-juegos{
+    color: white;
+}
+
+.link-yt2{
+    color: #e2fdff;
+    font-weight: bold;
+}
+.link-yt2:hover{
+    color: white;
+
+}
+.card-bio{
+    background-color: #7067cf;
+    color: #e2fdff;
+    height: 550px;
+}
+.titulo-card{
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.p-bio{
+    text-align: justify;
+    font-size: 20px;
+    margin-right: 70px;
+}
+.header-bio{
+    position: fixed;
+}
+.img-bio{
+    margin-top: 25px;
+    padding: 25px;
+    width: 73%;
+}
+.card-bio2{
+    background-color: #e2fdff;
+    color: #7067cf;
+    height: 550px;
+}
